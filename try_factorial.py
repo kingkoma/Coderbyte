@@ -1,3 +1,7 @@
+
+# calculate num*(num-1)*...*1
+
+
 def FirstFactorial(num):
     try:
         num = int(num)
