@@ -1,3 +1,6 @@
+
+# ie. c -> d, z -> a, capitalize every vowel(aieuo) in new string
+
 def LetterChanges(str):
     new_str = ''
     for i in str:
