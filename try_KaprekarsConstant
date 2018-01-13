@@ -1,0 +1,14 @@
+"""
+
+"""
+
+def KaprekarsConstant(num):
+    counts = 0
+    num = int(num)
+    while num != 6174:
+        new_num = '%04d' % num
+        num = int(''.join(sorted(new_num, reverse=True))) - int(''.join(sorted(new_num)))
+        counts += 1
+    return counts
+
+print(KaprekarsConstant(input()))
