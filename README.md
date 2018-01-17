@@ -1,2 +1,2 @@
 # Coderbyte
-My challenges in Coderbyte
+My challenges in Coderbyte/LintCode/LeetCode
